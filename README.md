@@ -1,4 +1,4 @@
-# Rengorum
+# Django React Combination
 Single-page forum application built in ReactJS and Django Rest Framework.
 
 ## Frontend
