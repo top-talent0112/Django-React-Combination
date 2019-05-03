@@ -1,10 +1,6 @@
 # Rengorum
 Single-page forum application built in ReactJS and Django Rest Framework.
 
-## Live Demo: https://forum.endiliey.com/
-### [https://youtu.be/t9vWwxydREs](https://youtu.be/t9vWwxydREs)
-[![Forum app in ReactJS and Django](preview/frontend_1.PNG)](http://www.youtube.com/watch?v=t9vWwxydREs "Forum app in ReactJS and Django")
-
 ## Frontend
 > The frontend is a fast, interactive and simple Single-Page-Application (SPA), written in ES6 Javascript and built with following technologies:
 > * [React v16](https://facebook.github.io/react/)
@@ -12,46 +8,14 @@ Single-page forum application built in ReactJS and Django Rest Framework.
 > * [React Router v4](https://github.com/ReactTraining/react-router)
 > * [Redux Thunk v2](https://github.com/gaearon/redux-thunk)
 > * [Redux Persist v5.9](https://github.com/rt2zz/redux-persist)
-> * [etc](https://github.com/endiliey/rengorum/blob/master/frontend/package.json)
 
-### Demo Screenshots:
-![Screenshot 2](preview/frontend_2.PNG)
-![Screenshot 3](preview/frontend_3.PNG)
-![Screenshot 4](preview/frontend_4.PNG)
-![Screenshot 5](preview/frontend_5.PNG)
+
 
 ## Backend
 > The backend is a scalable system that provides data through its RESTful API (browseable API available), written in Python and built with following technologies:
 > * [Django v2.0](https://www.djangoproject.com/)
 > * [Djangorestframework v3.7](http://www.django-rest-framework.org/)
-> * [etc](https://github.com/endiliey/rengorum/blob/master/requirements.txt)
 
-## API endpoint for Demo: https://rengorum.endiliey.com/api
-```
-List of available API (browseable) at /api
-* /user/
-* /user/login/
-* /user/register/
-* /user/logout/
-* /user/{username}/
-* /user/{username}/edit
-* /user/{username}/delete
-* /forum/
-* /forum/create/
-* /forum/{slug}/
-* /forum/{slug}/edit/
-* /forum/{slug}/delete/
-* /thread/
-* /thread/create/
-* /thread/{id}/
-* /thread/{id}/edit/
-* /thread/{id}/delete/
-* /post/
-* /post/create/
-* /post/{id}/
-* /post/{id}/edit/
-* /post/{id}/delete/
-```
 
 ## Installation
 
@@ -61,15 +25,11 @@ Make sure you have following software installed in your system:
 * NPM / Yarn
 * Git
 
-First, we need to clone the repository
-```
-git clone https://github.com/endiliey/rengorum.git
-```
 
 Install all required dependencies in an isolated environment
 
 ```
-cd rengorum/backend
+cd ./backend
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
