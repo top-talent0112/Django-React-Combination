@@ -16,10 +16,6 @@ const Navlink = () => {
         <Icon name="users" className="navlinkIcon" />
         <Link to="/users">Users</Link>
       </div>
-      <div className="link">
-        <Icon name="github" className="navlinkIcon" />
-        <a href="https://github.com/endiliey/rengorum">GitHub</a>
-      </div>
     </div>
   );
 };
